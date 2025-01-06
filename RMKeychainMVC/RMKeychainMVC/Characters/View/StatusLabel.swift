@@ -1,5 +1,5 @@
 //
-//  CustomUILabel.swift
+//  StatusLabel.swift
 //  RMKeychainMVC
 //
 //  Created by Ибрагим Габибли on 29.12.2024.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-final class CustomUILabel: UILabel {
+final class StatusLabel: UILabel {
     var textInsets = UIEdgeInsets(top: 5, left: 9, bottom: 5, right: 9)
 
     override func drawText(in rect: CGRect) {

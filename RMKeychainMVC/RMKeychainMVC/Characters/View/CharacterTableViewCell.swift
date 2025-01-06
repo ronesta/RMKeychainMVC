@@ -66,8 +66,8 @@ final class CharacterTableViewCell: UITableViewCell {
         return label
     }()
 
-    private let statusLabel: CustomUILabel = {
-        let label = CustomUILabel()
+    private let statusLabel: StatusLabel = {
+        let label = StatusLabel()
         label.font = UIFont.systemFont(ofSize: 17)
         label.layer.cornerRadius = 12
         label.clipsToBounds = true
