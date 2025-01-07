@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class CharacterTableViewDataSource: NSObject, UITableViewDataSource {
+final class CharacterTableViewDataSource: NSObject, UITableViewDataSource {
     var characters = [Character]()
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

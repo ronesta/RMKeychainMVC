@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CharacterView: UIView {
+final class CharacterView: UIView {
     let tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .plain)
         tableView.separatorStyle = .none

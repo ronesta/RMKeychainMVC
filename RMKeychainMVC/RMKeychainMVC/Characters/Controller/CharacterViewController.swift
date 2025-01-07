@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class CharacterViewController: UIViewController {
+final class CharacterViewController: UIViewController {
     lazy var characterView: CharacterView = {
         let view = CharacterView(frame: .zero)
         return view
